@@ -31,7 +31,7 @@
         &kp LG(UP) &kp LG(LS(UP)) &kp LA(LS(LEFT)) &kp LG(A) &kp LA(LS(RIGHT)) &kp LG(LS(DOWN))     &none &none &none &kp TILDE &none &kp EQUAL
         &kp LG(LS(TAB)) &kp LG(LS(LEFT)) &kp LG(LEFT) &mt LGUI UP &kp LG(RIGHT) &kp LG(LS(RIGHT))  &kp GRAVE &kp N7 &mt LGUI N8 &kp N9 &kp N0 &kp BACKSPACE
         &kp LG(TAB) &mt LS(LALT) ENTER &mt LALT LEFT &mt LSHIFT DOWN &mt LGUI RIGHT &kp LA(ENTER)   &kp KP_PLUS &mt LGUI N4 &mt LSHIFT N5 &mt LALT N6 &mt LCTRL MINUS &kp ENTER
-        &kp LG(DOWN) &mt LSHIFT CAPSLOCK &kp PG_UP &mt RALT APPLICATION &mt RSHIFT PG_DN &none    &trans    &trans    kp KP_MULTIPLY &kp N1 &mt LALT N2 &kp N3 &kp SLASH &kp DEL
+        &kp LG(DOWN) &mt LSHIFT CAPSLOCK &kp PG_UP &mt RALT APPLICATION &mt RSHIFT PG_DN &none    &trans    &trans    &kp KP_MULTIPLY &kp N1 &mt LALT N2 &kp N3 &kp SLASH &kp DEL
                      &kp ESCAPE &kp TAB &none    &trans    &trans                                              &kp SPACE &kp ENTER &kp DOT
       >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
