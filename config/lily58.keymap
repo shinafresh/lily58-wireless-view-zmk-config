@@ -131,20 +131,6 @@
         };
     };
 
-    behaviors {
-        hm: hm {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HM";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            require-prior-idle-ms = <150>;
-            flavor = "tap-preferred";
-            hold-trigger-key-positions = <25 26 27 28 29 30 31 32 33 34 46 45 20 15 39 40>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
