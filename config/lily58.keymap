@@ -58,7 +58,7 @@
         };
 
         Lan_LH {
-            bindings = <&kp LG(SPACE)>;
+            bindings = <&kp LC(SPACE)>;
             key-positions = <52 40>;
         };
 
@@ -99,7 +99,7 @@
         };
 
         Lan_RH {
-            bindings = <&kp LG(SPACE)>;
+            bindings = <&kp LC(SPACE)>;
             key-positions = <31 32>;
         };
 
@@ -152,7 +152,7 @@
             display-name = "0";
             bindings = <
 &kp GRAVE             &kp N1    &kp N2      &kp N3           &kp N4      &kp N5                           &kp N6       &kp N7       &kp N8               &kp N9           &kp N0            &kp GRAVE
-&mt LEFT_CONTROL TAB  &lt 8 Q   &kp W       &mt LGUI E       &kp R       &kp T                            &kp LC(Y)    &kp U        &mt LGUI I           &kp O            &lt 8 P           &kp BACKSPACE
+&mt LEFT_CONTROL TAB  &lt 8 Q   &kp W       &mt LGUI E       &kp R       &kp T                            &kp Y        &kp U        &mt LGUI I           &kp O            &lt 8 P           &kp BACKSPACE
 &mt LSHIFT ESCAPE     &lt 12 A  &mt RALT S  &mt LSHIFT D     &mt LGUI F  &mt LCTRL G                      &mt LCTRL H  &mt RGUI J   &mt RSHIFT K         &mt RIGHT_ALT L  &lt 15 SEMICOLON  &mt LSHIFT ENTER
 &mt LS(LGUI) DELETE   &lt 11 Z  &kp X       &mt RIGHT_ALT C  &kp C       &mt LSHIFT V     &none    &none  &lt 9 N      &kp M        &mt RIGHT_ALT COMMA  &kp DOT          &lt 11 SLASH      &mt LGUI DELETE
                                             &kp CAPS         &lt 7 TAB   &lt 2 BACKSPACE  &none    &none  &lt 3 SPACE  &lt 7 ENTER  &kp CAPS
