@@ -23,7 +23,7 @@
 &mt LEFT_CONTROL TAB  &lt 8 Q   &kp W       &mt LGUI E       &kp R       &kp T                            &kp LC(Y)    &kp U        &mt LGUI I           &kp O            &lt 8 P           &kp BACKSPACE
 &mt LSHIFT ESCAPE     &lt 12 A  &mt RALT S  &mt LSHIFT D     &mt LGUI F  &mt LCTRL G                      &mt LCTRL H  &mt RGUI J   &mt RSHIFT K         &mt RIGHT_ALT L  &lt 15 SEMICOLON  &mt LSHIFT ENTER
 &mt LS(LGUI) DELETE   &lt 11 Z  &kp X       &mt RIGHT_ALT C  &kp C       &mt LSHIFT V     &none    &none  &lt 9 N      &kp M        &mt RIGHT_ALT COMMA  &kp DOT          &lt 11 SLASH      &mt LGUI DELETE
-                                            &kp CAPS         &lt 7 TAB   &lt 8 BACKSPACE  &none    &none  &lt 2 SPACE  &lt 7 ENTER  &kp CAPS
+                                            &kp CAPS         &lt 7 TAB   &lt 2 BACKSPACE  &none    &none  &lt 3 SPACE  &lt 7 ENTER  &kp CAPS
             >;
         };
 
@@ -53,7 +53,7 @@
 &kp TAB     &kp TILDE          &kp AMPERSAND             &kp ASTERISK               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LS(LG(LEFT))      &kp LG(LEFT)        &mt LGUI UP                  &kp LG(RIGHT)       &kp LG(LS(RIGHT))        &kp LS(LG(TAB))
 &kp ESCAPE  &kp DOUBLE_QUOTES  &kp DOLLAR                &kp PERCENT                &kp LCTRL             &none                                  &kp LA(ENTER)         &mt LGUI LEFT       &mt LSHIFT DOWN              &mt LEFT_ALT RIGHT  &mt LS(LEFT_ALT) ESCAPE  &kp LG(TAB)
 &kp DELETE  &kp SQT            &kp EXCLAMATION           &kp AT_SIGN                &kp HASH              &none                  &none    &none  &none                 &mt RSHIFT PAGE_UP  &mt RIGHT_ALT K_APPLICATION  &kp PAGE_DOWN       &mt LSHIFT F12           &kp LG(DOWN)
-                                                         &none                      &mo 7                 &none                  &none    &none  &none                 &kp ENTER           &kp DELETE
+                                                         &none                      &mo 6                 &none                  &none    &none  &none                 &kp ENTER           &kp DELETE
             >;
         };
 
