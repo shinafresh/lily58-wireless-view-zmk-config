@@ -138,10 +138,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             hold-trigger-key-positions = <25 26 27 28 29 15 39 40 41 37 30 31 32 33 34 20 45 44 46 48 38 13 14 16 17 18 19 21 22 47>;
-            flavor = "tap-unless-interrupted";
-            require-prior-idle-ms = <150>;
+            flavor = "tap-preferred";
+            require-prior-idle-ms = <100>;
         };
     };
 
@@ -154,7 +154,7 @@
 &kp GRAVE             &kp N1    &kp N2      &kp N3           &kp N4      &kp N5                           &kp N6       &kp N7       &kp N8               &kp N9           &kp N0            &kp GRAVE
 &mt LEFT_CONTROL TAB  &lt 8 Q   &kp W       &mt LGUI E       &kp R       &kp T                            &kp Y        &kp U        &mt LGUI I           &kp O            &lt 8 P           &kp BACKSPACE
 &mt LSHIFT ESCAPE     &lt 12 A  &mt RALT S  &mt LSHIFT D     &mt LGUI F  &mt LCTRL G                      &mt LCTRL H  &mt RGUI J   &mt RSHIFT K         &mt RIGHT_ALT L  &lt 15 SEMICOLON  &mt LSHIFT ENTER
-&mt LS(LGUI) DELETE   &lt 11 Z  &kp X       &mt RIGHT_ALT C  &kp C       &mt LSHIFT V     &none    &none  &lt 9 N      &kp M        &mt RIGHT_ALT COMMA  &kp DOT          &lt 11 SLASH      &mt LGUI DELETE
+&mt LS(LGUI) DELETE   &lt 11 Z  &kp X       &mt RIGHT_ALT C  &kp V       &mt LSHIFT B     &none    &none  &lt 9 N      &kp M        &mt RIGHT_ALT COMMA  &kp DOT          &lt 11 SLASH      &mt LGUI DELETE
                                             &kp CAPS         &lt 7 TAB   &lt 2 BACKSPACE  &none    &none  &lt 3 SPACE  &lt 7 ENTER  &kp CAPS
             >;
         };
