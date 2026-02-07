@@ -137,13 +137,13 @@
     };
 
     behaviors {
-        hm: hm {
+        hml: hml {
             compatible = "zmk,behavior-hold-tap";
-            label = "HM";
+            label = "HML";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             flavor = "tap-preferred";
         };
     };
