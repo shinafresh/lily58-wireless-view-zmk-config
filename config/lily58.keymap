@@ -65,7 +65,7 @@
         W_ {
             bindings = <&kp LS(W)>;
             key-positions = <14 15>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         R_ {
@@ -83,6 +83,7 @@
         E_ {
             bindings = <&kp LS(E)>;
             key-positions = <27 26>;
+            layers = <0 1>;
         };
 
         P_ {
@@ -338,6 +339,15 @@
             >;
 
             label = "15";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        tri {
+            if-layers = <2 1>;
+            then-layer = <6>;
         };
     };
 };
