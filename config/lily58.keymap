@@ -16,17 +16,17 @@
     combos {
         compatible = "zmk,combos";
 
-        del {
+        MOD_ES {
             bindings = <&none>;
             key-positions = <53 14>;
         };
 
-        ENT {
+        MOD_EN {
             bindings = <&none>;
             key-positions = <53 15>;
         };
 
-        SPC {
+        MOD_SP {
             bindings = <&none>;
             key-positions = <16 53>;
         };
