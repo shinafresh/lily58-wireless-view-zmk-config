@@ -17,18 +17,87 @@
         compatible = "zmk,combos";
 
         MOD_ES {
-            bindings = <&none>;
-            key-positions = <53 14>;
+            bindings = <&kp DELETE>;
+            key-positions = <14 52>;
         };
 
         MOD_EN {
-            bindings = <&none>;
-            key-positions = <53 15>;
+            bindings = <&kp ENTER>;
+            key-positions = <15 52>;
         };
 
         MOD_SP {
-            bindings = <&none>;
-            key-positions = <16 53>;
+            bindings = <&kp SPACE>;
+            key-positions = <16 52>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <52 28>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <27 52>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <26 52>;
+        };
+
+        AltTab {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <25 52>;
+        };
+
+        Lan_LH {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <52 40>;
+        };
+
+        W_ {
+            bindings = <&kp LS(W)>;
+            key-positions = <14 15>;
+        };
+
+        R_ {
+            bindings = <&kp LS(R)>;
+            key-positions = <15 16>;
+        };
+
+        T_ {
+            bindings = <&kp LS(T)>;
+            key-positions = <27 28>;
+        };
+
+        E_ {
+            bindings = <&kp LS(E)>;
+            key-positions = <27 26>;
+        };
+
+        P_ {
+            bindings = <&kp LS(P)>;
+            key-positions = <34 33>;
+        };
+
+        b_ {
+            bindings = <&kp B>;
+            key-positions = <32 33>;
+        };
+
+        Lan_RH {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <31 32>;
+        };
+    };
+
+    macros {
+        macro10: macro10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N6 &kp N0 &kp N0 &kp N6 &kp N2 &kp N2 &kp N6>;
+            label = "MACRO10";
         };
     };
 
