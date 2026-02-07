@@ -24,31 +24,37 @@
         MOD_EN {
             bindings = <&kp ENTER>;
             key-positions = <15 52>;
+            require-prior-idle-ms = <100>;
         };
 
         MOD_SP {
             bindings = <&kp SPACE>;
             key-positions = <16 52>;
+            require-prior-idle-ms = <100>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <52 28>;
+            require-prior-idle-ms = <100>;
         };
 
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <27 52>;
+            require-prior-idle-ms = <100>;
         };
 
         cut {
             bindings = <&kp LG(X)>;
             key-positions = <26 52>;
+            require-prior-idle-ms = <100>;
         };
 
         AltTab {
             bindings = <&kp LG(TAB)>;
             key-positions = <25 52>;
+            require-prior-idle-ms = <100>;
         };
 
         Lan_LH {
@@ -59,16 +65,19 @@
         W_ {
             bindings = <&kp LS(W)>;
             key-positions = <14 15>;
+            layers = <0 2>;
         };
 
         R_ {
             bindings = <&kp LS(R)>;
             key-positions = <15 16>;
+            layers = <0 1>;
         };
 
         T_ {
             bindings = <&kp LS(T)>;
             key-positions = <27 28>;
+            layers = <0 1>;
         };
 
         E_ {
@@ -79,16 +88,36 @@
         P_ {
             bindings = <&kp LS(P)>;
             key-positions = <34 33>;
+            layers = <0 1>;
         };
 
         b_ {
             bindings = <&kp B>;
             key-positions = <32 33>;
+            layers = <0 1>;
         };
 
         Lan_RH {
             bindings = <&kp LG(SPACE)>;
             key-positions = <31 32>;
+        };
+
+        MOD_BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <55 19>;
+            require-prior-idle-ms = <100>;
+        };
+
+        MOD_TA {
+            bindings = <&kp TAB>;
+            key-positions = <55 20>;
+            require-prior-idle-ms = <100>;
+        };
+
+        MOD_ESC {
+            bindings = <&kp ESCAPE>;
+            key-positions = <55 21>;
+            require-prior-idle-ms = <100>;
         };
     };
 
@@ -137,6 +166,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "1";
         };
 
         layer_2 {
@@ -147,6 +178,8 @@
 &kp LG(DOWN)     &mt LSHIFT CAPS         &kp PAGE_UP        &mt RIGHT_ALT K_APPLICATION  &mt RSHIFT PAGE_DOWN  &none               &none    &none  &kp ASTERISK  &kp N1       &mt LEFT_ALT N2  &kp N3       &kp SLASH        &kp DELETE
                                                             &kp ESCAPE                   &kp TAB               &none               &none    &none  &kp SPACE     &kp ENTER    &kp DOT
             >;
+
+            label = "2";
         };
 
         layer_3 {
@@ -157,6 +190,8 @@
 &kp DELETE  &kp SQT            &kp EXCLAMATION           &kp AT_SIGN                &kp HASH              &none                  &none    &none  &none                 &mt RSHIFT PAGE_UP  &mt RIGHT_ALT K_APPLICATION  &kp PAGE_DOWN       &mt LSHIFT F12           &kp LG(DOWN)
                                                          &none                      &mo 6                 &none                  &none    &none  &none                 &kp ENTER           &kp DELETE
             >;
+
+            label = "3";
         };
 
         layer_4 {
@@ -167,6 +202,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "4";
         };
 
         layer_5 {
@@ -203,6 +240,8 @@
 &kp DEL  &kp FSLH         &kp N1           &mt LALT N2    &mt LSHIFT N3  &kp ASTERISK    &trans    &trans  &kp ASTERISK    &mt LSHIFT N1  &mt LALT N2    &kp N3       &kp FSLH         &kp DEL
                                            &kp DOT        &kp BSLH       &kp LBKT        &trans    &trans  &kp RBKT        &kp PIPE       &kp DOT
             >;
+
+            label = "7";
         };
 
         layer_8 {
@@ -213,6 +252,8 @@
 &none      &none   &none   &none   &none   &none         &none    &none  &none  &none  &none  &none  &none  &none
                            &none   &none   &none         &none    &none  &none  &none  &none
             >;
+
+            label = "8";
         };
 
         layer_9 {
@@ -223,6 +264,8 @@
 &trans                   &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "9";
         };
 
         layer_10 {
@@ -233,6 +276,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "10";
         };
 
         layer_11 {
@@ -243,6 +288,8 @@
 &kp LG(LBKT)  &kp SLASH      &kp PERIOD  &kp COMMA                &kp M                   &kp N                   &none    &none  &kp B                   &kp V                   &kp C                    &kp X   &kp Z   &kp LG(LBKT)
                                          &kp LS(LA(LC(LG(F19))))  &kp LS(LA(LC(LG(F4))))  &kp LS(LA(LC(LG(F6))))  &none    &none  &kp LS(LA(LC(LG(F4))))  &kp LS(LA(LC(LG(F6))))  &kp LS(LA(LC(LG(F22))))
             >;
+
+            label = "11";
         };
 
         layer_12 {
@@ -253,6 +300,8 @@
 &none  &none  &none         &none         &none  &none     &none    &none  &msc SCRL_DOWN  &kp PAGE_UP     &kp K_APPLICATION  &kp PAGE_DOWN    &none            &none
                             &none         &none  &mkp MB1  &none    &none  &mkp MB1        &mkp MB2        &mkp MB3
             >;
+
+            label = "12";
         };
 
         layer_13 {
@@ -263,6 +312,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "13";
         };
 
         layer_14 {
@@ -273,6 +324,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "14";
         };
 
         layer_15 {
@@ -283,6 +336,8 @@
 &kp DEL    &kp LA(Z)  &kp LA(X)  &kp LA(C)  &kp LA(V)  &kp LA(B)  &none    &none  &kp LA(N)         &kp LA(M)  &kp COMMA  &kp DOT    &kp FSLH   &kp DEL
                                  &kp ESC    &kp TAB    &kp BSPC   &none    &none  &mt LSHIFT SPACE  &kp ENTER  &kp DEL
             >;
+
+            label = "15";
         };
     };
 };
